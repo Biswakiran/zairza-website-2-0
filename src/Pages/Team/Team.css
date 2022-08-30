@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../Assets/Fonts/Gilroy-Light.eot");
+  src: local("☺"), url("../../Assets/Fonts/Gilroy-Light.woff") format("woff"), url("../../Assets/Fonts/Gilroy-Light.ttf") format("truetype"), url("../../Assets/Fonts/Gilroy-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy_B";
+  src: url("../../Assets/Fonts/Gilroy-ExtraBold.eot");
+  src: local("☺"), url("../../Assets/Fonts/Gilroy-ExtraBold.woff") format("woff"), url("../../Assets/Fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../../Assets/Fonts/Gilroy-ExtraBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+}
+
+.l-text {
+  position: relative;
+  width: 361px;
+  height: 144px;
+  left: 20%;
+  top: 57%;
+  font-family: "Gilroy_B";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #1D2939;
+}
+
+.r-text {
+  position: relative;
+  width: 552px;
+  height: 196px;
+  left: 0.5%;
+  top: 52%;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.item1 {
+  width: 264px;
+  height: 347px;
+}
+
+.item2 {
+  width: 264px;
+  height: 347px;
+}
+
+.item3 {
+  width: 264px;
+  height: 347px;
+}
+
+.item4 {
+  width: 264px;
+  height: 347px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+.item11 {
+  width: 264px;
+  height: 84px;
+  margin-top: -1.5%;
+  background: #00255C;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.item-txt {
+  width: 90%;
+  height: 28px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 7%;
+  padding-top: 2%;
+  color: #FFFFFF;
+}
+
+.position {
+  width: 63px;
+  height: 20px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 7%;
+  margin-top: 4%;
+  color: #FFFFFF;
+}
+
+.img {
+  width: 264px;
+  height: 263px;
+  border-radius: 8px;
+}
+
+@media (max-width: 350px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50%;
+    margin-left: 1%;
+  }
+  .r-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    height: 80px;
+    top: 10%;
+    margin-left: -87%;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    margin-top: 50%;
+  }
+  .l-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    height: 80px;
+    top: 20%;
+    font-family: "Gilroy_B";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    /* line-height: 72px;
+
+
+
+    letter-spacing: -0.02em; */
+    margin-left: -8%;
+    padding-left: -4%;
+    color: #1D2939;
+  }
+}/*# sourceMappingURL=Team.css.map */
